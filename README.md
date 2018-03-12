@@ -1,4 +1,4 @@
 # P5-2DPerlinNoise
-Simple p5.js 2D perlin noise representation.
+A simple p5.js representation of perlin noise in 2D.
 
-Check it out here: https://alexmcdermott.github.io/P52DPerlinNoise/
+Check it out here: https://alexmcdermott.github.io/P5-2DPerlinNoise/
