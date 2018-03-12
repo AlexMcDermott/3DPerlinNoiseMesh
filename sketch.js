@@ -1,14 +1,16 @@
-scl = 10;
-noiseScl = 0.05;
-mouseScl = 0.025;
-xoff = 0;
-yoff = 0;
+let scl = 10;
+let noiseScl = 0.05;
+let mouseScl = 0.025;
+let xoff;
+let yoff;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
   cols = floor(windowWidth / scl);
   rows = floor(windowHeight / scl);
+  xoff = mouseX*mouseScl;
+  yoff = mouseY*mouseScl;
 }
 
 function draw() {
