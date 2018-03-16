@@ -1,6 +1,6 @@
-let scl = 20;
+let scl = 10;
 let noiseScl = 0.0125;
-let amp = 4;
+let amp = 10;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
